@@ -1,0 +1,9 @@
+#반복문(while, for), 조건문(if, elif, else)
+a = 1
+while a < 5:
+   print('hello world',a)
+   if a > 9:
+       break
+   a += 1
+else:
+    print('good job')

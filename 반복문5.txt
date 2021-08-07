@@ -1,0 +1,2 @@
+for i in range(10):  # range는 0부터 9까지 나타내줌
+       print(i)

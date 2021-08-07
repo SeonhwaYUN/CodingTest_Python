@@ -1,0 +1,6 @@
+#copy함수
+jeju = {'banana':5000, 'orange':2000}
+seoul = jeju.copy()
+jeju['orange'] = 10000  #copy사용하여 값 변경
+print(seoul)
+print(jeju)

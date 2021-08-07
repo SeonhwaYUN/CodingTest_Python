@@ -1,0 +1,26 @@
+l = [100, 200, 300, 400]
+#print(type(l))  list
+print(l[::-1])
+# l[strt:stop:step]
+print(dir(l))
+l.append(300)
+print(l)
+#l.clear()
+#l.copy()
+print(l.count(300))
+print(l)
+l.extend([100, 200, 300])
+print(l)
+print(l.index(100)) #0부터 시작
+l.insert(3,1000) #3번째에 1000넣기
+print(l)
+l.pop()
+print(l)
+l.remove(100) #처음에 나오는 100만 지움
+print(l)
+l.reverse()  #뒤집기
+print(l)
+l.sort()  #정렬
+print(l)
+# sorted() 리턴값만 손댐
+# reversed() 리턴값만 손댐

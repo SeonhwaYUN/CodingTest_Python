@@ -1,0 +1,15 @@
+class Car():
+    maxSpeed = 300
+    maxPeople = 5
+    def start(self):
+        print('출발')
+    def start(self):
+        print('정지')
+        
+k9 = Car()
+print(k9.maxPeople)   #esc+M : Plain Text로 쓸 수 있음!!!
+
+# class
+# 1. class name 첫 문자가 대문자
+# 2. class는 대부분 직접만지지 않는다
+# 3. class를 붕어빵 찍는 틀로 생각한다면 instance는 붕어빵.

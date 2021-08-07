@@ -1,0 +1,7 @@
+#range(start, stop, step)  ***range는 사용할 일이 너무 많아서 꼬옥 알아두기***
+print(type(range(10)))
+print(1,list(range(10)))
+print(2,list(range(5,10)))
+print(3,list(range(2,10,2)))
+print(4,list(range(10,5,-1)))
+print(5,list(range(-10)))

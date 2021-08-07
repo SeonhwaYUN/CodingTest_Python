@@ -1,0 +1,13 @@
+#키값과 벨류값
+# d = {key:value}
+d = {'one':10, 'two':20}
+#순서가 없고
+#키의 중복을 허락하지 않습니다.
+print(d['one'])
+print(type(d))
+print(dir(d))
+print(d.values())  #숫자 값
+print(d.keys())   #키 값
+print(d.items())   #전부
+ㅣ = list(d.items())
+print(ㅣ[0][1])  #다중리스트 10 값만 출력

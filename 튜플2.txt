@@ -1,0 +1,9 @@
+l = [10, 20]
+t = (l, 200, 300)
+print(t)
+print(type(t))
+print(dir(t))
+
+# 순서가 있고
+# 변경이 불가능한 자료형
+# t[0] = 1000 error

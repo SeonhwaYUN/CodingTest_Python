@@ -1,0 +1,13 @@
+a = 25
+if a ==10:  #->true면 실행해라.
+    print('hello world')
+elif a < 20:
+    print('good job 1')
+elif a < 30:
+    print('good job 2')
+elif a < 40:
+    print('good job 3') 
+elif a < 50:
+    print('good job 4')
+else:
+    print('else')

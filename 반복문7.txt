@@ -1,0 +1,6 @@
+for i in range(10):   #정상종료 되었을 때 실행가능
+    print(i)
+    if i == 5:
+        break
+else:
+    print('good job')

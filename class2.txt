@@ -1,0 +1,15 @@
+class Car():
+    maxSpeed = 300
+    maxPeople = 5
+    def start(self):
+        print('출발')
+    def start(self):
+        print('정지')
+        
+k9 = Car()
+k5 = Car()
+k3 = Car()
+print(k9.maxPeople)   #esc+M : Plain Text로 쓸 수 있음!!!
+print(k3.maxPeople)
+print(type(k9))
+print(dir(k9))

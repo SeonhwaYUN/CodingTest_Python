@@ -1,0 +1,11 @@
+#set 1
+s = {100, 200, 300, 300, 300}
+print(s)
+print(type(s))
+print(dir(s))
+#순서가 없고
+#값의 중복을 허락하지 않는다.(교집합, 합집합, 차집합)
+
+s.add(500)
+print(s)  #500추가!!
+print(set('aabbccdddefggg'))

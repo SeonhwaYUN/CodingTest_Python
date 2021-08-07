@@ -1,0 +1,2 @@
+for i, j in enumerate(range(100, 1000, 100), 1):  #순위와 번호의 넘버링을 만들때 사용 / range(start, end, 반복)
+   print(i, j)
