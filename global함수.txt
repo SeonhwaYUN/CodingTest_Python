@@ -1,0 +1,6 @@
+a = 10
+def aplus():
+    global a
+    a += 10  # += 는 붙여쓰기
+    return a
+print(aplus())

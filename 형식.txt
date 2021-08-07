@@ -1,0 +1,13 @@
+a = 10      #int(정수)
+b = 10.1    #float(실수)
+c = 'hello world'  #str(문자열)
+d = -1
+e = 'lee'
+f = 'hojun'
+g = 10+2j
+h = 0b1001 #int
+i = 0o1001 #int
+j = 0x1001 #int
+print(e+f)
+print(type(a))
+#print(dir(a))

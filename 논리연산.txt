@@ -1,0 +1,6 @@
+#논리연산
+a = True       #1
+b = False      #0
+print(a and b) # *
+print(a or b)  # +
+print(not b)   #반대

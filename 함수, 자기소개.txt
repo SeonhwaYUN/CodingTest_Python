@@ -1,0 +1,13 @@
+s = 'paullab CEO LeeHoJun'
+print(type(s))
+print(dir(s))
+print(s.upper()) #대문자
+print(s.lower()) #소문자
+print(s.count('l')) #갯수
+ss = '  hello world   '
+print(ss.strip()) #strip 사용해서 공백없이 
+#print(s.split(' ')) #공백을 기준으로 나눠서 표시
+a = s.split(' ')
+print(a)
+print('!'. join(a)) #, 가 아니라 . 주의하기
+print('제 이름은 {}입니다. 제 나이는 {}입니다.'. format('윤선화',27))

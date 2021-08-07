@@ -1,0 +1,6 @@
+print(bool(' ')) #space가 들어있어서 true
+print(bool('')) #아무것도 없어서 false , 0이 아닌 다른게 있으면 true
+print(bool(0))
+print(bool(1))
+print(bool(-1))
+print(bool(None))
